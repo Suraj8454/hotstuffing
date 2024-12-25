@@ -1,0 +1,29 @@
+.carousel-container {
+  position: relative;
+  width: 100%;
+  max-width: 1200px; /* Adjust based on your needs */
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.carousel-wrapper {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .carousel-container {
+    max-width: 100%;
+  }
+}

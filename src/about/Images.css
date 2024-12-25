@@ -1,0 +1,39 @@
+/* src/App.css */
+.Img {
+    text-align: center;
+    padding: 2rem;
+  }
+
+  
+  /* Container that holds the image */
+  .image-container {
+    width: 100%;
+    max-width:800px; /* This sets the max width of the container */
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  /* Responsive Image Styling */
+  .responsive-image {
+    width: 100%; /* Make the image take up the full width of the container */
+    height: auto; /* Maintain the image's aspect ratio */
+    border-radius: 8px; /* Optional: Adds rounded corners to the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds shadow to the image */
+  }
+  
+  /* Media Queries for Smaller Screens */
+  
+  /* For tablets (max-width: 768px) */
+  @media (max-width: 768px) {
+    .Img {
+      padding: 1rem;
+    }
+  }
+  
+  /* For mobile devices (max-width: 480px) */
+  @media (max-width: 480px) {
+    .image-container {
+      padding: 5px; /* Adjust the padding for smaller screens */
+    }
+  }
+  

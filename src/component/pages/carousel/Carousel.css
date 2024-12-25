@@ -1,0 +1,106 @@
+/* ImageCarousel.css */
+
+/* Container for the carousel */
+.carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto; /* Center the carousel */
+    overflow: hidden; /* Hide any overflow from the images */
+  }
+  
+  /* Styling for carousel images */
+  .carousel-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel-image {
+    width: 100%;
+    height: auto;
+     display: block;/* Remove any space below images */
+  }
+  
+  /* Navigation buttons at the bottom */
+  .carousel-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .carousel-nav-btn {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+  }
+  
+  .carousel-nav-btn:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .carousel-nav-btn.active {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  
+  /* Optional next and previous buttons */
+  .carousel-controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+  
+  .carousel-button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 50%;
+  }
+  
+  .carousel-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .carousel-button.prev {
+    left: 10px;
+  }
+  
+  .carousel-button.next {
+    right: 600px;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .carousel-container {
+      max-width: 100%;
+     padding: 20px;
+    }
+  
+    .carousel-button {
+      font-size: 18px;
+      padding: 8px;
+    }
+  
+    .carousel-nav-btn {
+      font-size: 14px;
+      padding: 5px 10px;
+    } 
+    .carousel-image {
+      height: 300px;
+    }
+
+  }
+  

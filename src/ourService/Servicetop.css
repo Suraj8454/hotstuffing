@@ -1,0 +1,18 @@
+/* src/components/HeroSection.css */
+.servicehero {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7PNOcVpJ2F_GxAw0NL2cdAyrWBTor-rVF4w&s'); /* Replace with actual restaurant image */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  
+  .serviceero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }

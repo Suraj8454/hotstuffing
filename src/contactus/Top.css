@@ -1,0 +1,21 @@
+/* src/components/HeroSection.css */
+.contacthero {
+    
+    background-image:url("https://st.depositphotos.com/1570716/4101/i/450/depositphotos_41018917-stock-photo-businessman-push-to-contact-us.jpg ");/* Replace with actual restaurant image */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  
+  .contacthero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  
+  

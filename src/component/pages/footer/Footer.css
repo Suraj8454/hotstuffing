@@ -1,0 +1,87 @@
+/* Footer.css */
+
+/* Basic footer styles */
+.footer {
+    margin-top: 40px;
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap; /* Allows content to wrap on smaller screens */
+  }
+  
+  .footer-section {
+    flex: 1 1 22%; /* Each section will take 22% width by default */
+    margin: 10px;
+  }
+  
+  .footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section p {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-section ul li {
+    margin: 5px 0;
+  }
+  
+  .footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-section ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-links {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .social-links li {
+    display: inline-block;
+  }
+  
+  .social-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .social-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Media Queries for smaller screens */
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column; /* Stack sections vertically on small screens */
+    }
+  
+    .footer-section {
+      flex: 1 1 100%; /* Each section takes 100% width on small screens */
+      text-align: center;
+      margin: 10px 0;
+    }
+  
+    .social-links {
+      justify-content: center;
+    }
+  }
+  
